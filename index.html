@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 
@@ -11,51 +11,62 @@
 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 <!-- Typekit -->
 <script src="http://use.typekit.com/fxf0zok.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
-</head>
 
+</head>
 <body>
 
+<div class="main">
+  <section class="intro">
+    <h1>Hi, I’m Kyle Hardgrave.</h1>
+    <p>
+      I live in San Francisco and work as a software engineer at
+      <a href="https://medium.com/">Medium</a>.
+    </p>
+  </section>
+
+  <section class="previously">
+    <p>Previously, I’ve been a</p>
+    <ul>
+      <li>computer science student at Penn;</li>
+      <li>intern at Google;</li>
+      <li>tech lead at <a href="http://pennlabs.org/">Penn Labs</a>; and a</li>
+      <li>
+        <a href="http://www.thedp.com/staff/kyle_hardgrave">writer</a> and developer for
+        <i>The Daily Pennsylvanian</i>.
+      </li>
+    </ul>
+  </section>
+
+  <section class="bio">
+    <p>I like to think and talk about technology, society, and how to improve the two.</p>
+  </section>
+
+  <section class="elsewhere">
+    <p>
+      You can find me on
+      <a href="https://twitter.com/kylehardgrave">Twitter</a>,
+      <a href="https://github.com/kylehg">GitHub</a>,
+      <a href="https://medium.com/@kylehg">Medium</a>, and good ol’
+      <a href="mailto:kyle@kylehardgrave.com">e-mail</a>.
+    </p>
+  </section>
+</div>
 
 
-
-<div id="main">
-  <h1><span>Oh, hello there.</span></h1>
-  <p id="intro"> My name is <strong>Kyle Hardgrave</strong>. I&rsquo;m a sophomore at the <a href="http://www.upenn.edu/">University of Pennsylvania</a> studying computer science. I currently work as the engineering lead of <a href="http://labs.pennapps.com/">PennApps Labs</a> and a staff writer for <a href="http://thedp.com/"><i>The Daily Pennsylvanian</i></a>. I really like italicized ampersands <i class="amp">&amp;</i> Jorge Luis Borges stories. Among other things, my interests include computer <i class="amp">&amp;</i> cognitive science, language, philosophy, journalism, physics, religion, and law. I enjoy reading and writing programs and prose. </p>
-  <p id="social">If you&rsquo;re so inclined, follow me <a href="https://twitter.com/#!/kylehardgrave"><i class="at">@</i>kylehardgrave</a> or <a href="mailto:kyle@kylehardgrave.com" class="email">shoot me an e-mail</a>.</a></p>
-</div><!--/#main-->
-
-
-
-
-
-<!-- Scripts -->
+<!-- Google analytics -->
 <script>
-var _gaq = [['_setAccount', 'UA-24643689-1'], ['_trackPageview']];
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-(function() {
-  var ga = document.createElement('script'); 
-  ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
-      'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; 
-  s.parentNode.insertBefore(ga, s);
-})();
+ga('create', 'UA-24643689-1', 'auto');
+ga('send', 'pageview');
 </script>
-
-<!-- Chrome Frame Prompt -->
-<!--[if lt IE 7 ]>
-<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-<script defer>
-window.attachEvent('onload', function() {
-  CFInstall.check({ mode: 'overlay' });
-});
-</script>
-<![endif]-->
-
 </body>
 </html>
