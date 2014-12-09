@@ -1,0 +1,35 @@
+body {
+  background-color: #fefef2;
+  font-family: "Crimson Text", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.main {
+  margin: 10px auto;
+  max-width: 650px;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.3em;
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #cb6c8c;
+}
