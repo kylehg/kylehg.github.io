@@ -31,5 +31,9 @@ ul {
 }
 
 a {
-  color: #cb6c8c;
+  color: #489357;
+}
+
+a:hover {
+  text-decoration: none;
 }
