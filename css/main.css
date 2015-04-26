@@ -1,14 +1,15 @@
 body {
-  background-color: #fefef2;
-  font-family: "Crimson Text", "Times New Roman", serif;
-  font-size: 20px;
-  line-height: 1.4;
+  font-family: "Merriweather", "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
 }
 
 .main {
-  margin: 10px auto;
-  max-width: 650px;
-  padding: 20px;
+  border-top: 7px solid #333;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 75px;
 }
 
 section {
@@ -16,8 +17,9 @@ section {
 }
 
 h1 {
-  font-size: 1.3em;
+  font-size: 1.6em;
   margin: 0 0 10px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 p {
@@ -32,12 +34,17 @@ ul {
 
 a {
   color: #489357;
+  text-decoration: none;
+  border-bottom: 1px solid #489357;
 }
 
 a:hover {
   text-decoration: none;
+  border-bottom: none;
 }
 
 .amp {
   font-style: italic;
+  font-family: "Palatino", serif;
+  font-size: 110%;
 }
