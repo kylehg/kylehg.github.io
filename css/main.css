@@ -10,7 +10,7 @@ body {
   border-top: 7px solid #333;
   max-width: 700px;
   margin: 0 auto;
-  padding-top: 75px;
+  padding: 75px 20px 20px;
 }
 
 section {
