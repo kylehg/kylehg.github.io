@@ -1,7 +1,7 @@
 body {
   font-family: "Merriweather", "Times New Roman", serif;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.7;
   color: #333;
   -webkit-font-smoothing: antialiased;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 section {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 h1 {
@@ -48,4 +48,16 @@ a:hover {
   font-style: italic;
   font-family: "Palatino", serif;
   font-size: 110%;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+}
+
+.links {
+  text-transform: uppercase;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
 }
